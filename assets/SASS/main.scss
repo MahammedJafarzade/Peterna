@@ -5,11 +5,59 @@
 }
 .d-flex{
     text-transform: uppercase;
-        a{
-            color: wheat;
-        }
-   
+
 }
 .collapse{
     justify-content: end;
+}
+.nav-item{
+    padding: 0 5px;
+}
+.themePage{
+    padding: 200px 0;
+    text-align: center;
+    background-color: cadetblue;
+    height: 40%;
+    color: white;
+    h1{
+        font-size: 80px;
+        word-spacing: 5px;
+        text-transform: uppercase;
+        color: white;
+    }
+    
+        #title{
+            font-size: 30px;
+            word-spacing: 5px;
+        }
+      #description{
+            font-size: 20px;
+    }
+}
+.btn{
+    background-color: rgb(235, 88, 112);
+    &:hover{
+        background-color: rgba(240, 255, 255, 0.897);
+    }
+}
+.d-flexy{
+    padding: 70px 0;
+}
+.dolor{
+    padding: 20px 0;
+    display: flex;
+}
+.quique{
+    background-color: cadetblue;
+    height: 40vh;
+    h2{
+        padding: 5px 0;
+    }
+    p{
+        padding: 2px 0;
+    }
+    i{
+        font-size: 50px;
+        text-align: center;
+    }
 }

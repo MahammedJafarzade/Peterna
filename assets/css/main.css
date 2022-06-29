@@ -9,13 +9,74 @@
   text-transform: uppercase;
 }
 
-.d-flex a {
-  color: wheat;
-}
-
 .collapse {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.themePage {
+  padding: 200px 0;
+  text-align: center;
+  background-color: cadetblue;
+  height: 40%;
+  color: white;
+}
+
+.themePage h1 {
+  font-size: 80px;
+  word-spacing: 5px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.themePage #title {
+  font-size: 30px;
+  word-spacing: 5px;
+}
+
+.themePage #description {
+  font-size: 20px;
+}
+
+.btn {
+  background-color: #eb5870;
+}
+
+.btn:hover {
+  background-color: rgba(240, 255, 255, 0.897);
+}
+
+.d-flexy {
+  padding: 70px 0;
+}
+
+.dolor {
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.quique {
+  background-color: cadetblue;
+  height: 40vh;
+}
+
+.quique h2 {
+  padding: 5px 0;
+}
+
+.quique p {
+  padding: 2px 0;
+}
+
+.quique i {
+  font-size: 50px;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
